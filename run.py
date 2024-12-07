@@ -47,7 +47,7 @@ with open("x.csv", "r") as csv_file:
 
             nama_modif = kw.replace(" ", "-")
             gmail = f"{nama_modif}-onlyfans-vidx{random_string(6)}@gmail.com"
-            slug = f"{nama_modif}-telegram-chanel-x{random_string(6)}"
+            slug = f"tele-{nama_modif}-telegram-chanel-x{random_string(6)}"
 
           
             
@@ -63,7 +63,7 @@ with open("x.csv", "r") as csv_file:
 
                 # Isi form dengan slug
             driver.find_element(By.CSS_SELECTOR, "input[placeholder='your-name']").send_keys(slug)
-            time.sleep(7)         
+            time.sleep(30)         
 
 
             def inputslug():
@@ -75,7 +75,7 @@ with open("x.csv", "r") as csv_file:
 
                 # Isi form dengan slug
                 driver.find_element(By.CSS_SELECTOR, "input[placeholder='your-name']").send_keys(slug)
-                time.sleep(7)         
+                time.sleep(35)         
 
 
             try:
